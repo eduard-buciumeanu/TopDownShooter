@@ -173,6 +173,6 @@ Module['FS_createPath']('/TopDownShooter/Content', 'Paks', true, true);
   }
 
  }
- loadPackage({"files": [{"start": 0, "audio": 0, "end": 53, "filename": "/Manifest_NonUFSFiles_HTML5.txt"}, {"start": 53, "audio": 0, "end": 101, "filename": "/UE4CommandLine.txt"}, {"start": 101, "audio": 0, "end": 63718509, "filename": "/TopDownShooter/Content/Paks/TopDownShooter-HTML5.pak"}], "remote_package_size": 63718509, "package_uuid": "b76158f6-4f0b-403a-8807-9fc27e4ec21c"});
+ loadPackage({"files": [{"start": 0, "audio": 0, "end": 53, "filename": "/Manifest_NonUFSFiles_HTML5.txt"}, {"start": 53, "audio": 0, "end": 101, "filename": "/UE4CommandLine.txt"}, {"start": 101, "audio": 0, "end": 79939368, "filename": "/TopDownShooter/Content/Paks/TopDownShooter-HTML5.pak"}], "remote_package_size": 79939368, "package_uuid": "c2032248-a257-48a1-9fa5-9fa27a820bff"});
 
 })();
