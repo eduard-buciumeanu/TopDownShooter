@@ -73,7 +73,7 @@ var Module = {
 	assetDownloadProgress: {}, // Track how many bytes of each needed asset has been downloaded so far.
 
 	UE4_indexedDBName: 'UE4_assetDatabase_TopDownShooter', // this should be an ascii ID string without special characters that is unique to the project that is being packaged
-	UE4_indexedDBVersion: 201910081616, // Bump this number to invalidate existing IDB storages in browsers.
+	UE4_indexedDBVersion: 201910211456, // Bump this number to invalidate existing IDB storages in browsers.
 };
 
 
@@ -996,8 +996,8 @@ function postRunEmscripten() {
 	// defined in UE4 DefaultEngine.ini [SystemSettings] r.setRes=WidthxHeight,
 	// uncomment the following two lines before calling resizeCanvas() below:
 
-	canvasAspectRatioWidth  = UE_JSlib.UE_GSystemResolution_ResX();
-	canvasAspectRatioHeight = UE_JSlib.UE_GSystemResolution_ResY();
+//	canvasAspectRatioWidth  = UE_JSlib.UE_GSystemResolution_ResX();
+//	canvasAspectRatioHeight = UE_JSlib.UE_GSystemResolution_ResY();
 
 	// Configure the size of the canvas and display it.
 	resizeCanvas();
